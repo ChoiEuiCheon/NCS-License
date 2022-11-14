@@ -7,7 +7,7 @@
 <title>header</title>
 </head>
 <body>
-<header style = "position:fixed; top:0px; left:0px; width:100%; height:40px; 
+<header style="position:fixed; top:0px; left:0px; width:100%; height:40px; 
 line-height:40px; text-align:center; background-color:orange; font-size:20px;">
 <b>골프연습장 회원 관리 프로그램 ver 1.0</b>
 </header>
