@@ -24,7 +24,6 @@
 			<td style="width:150px;"> 수강료 </td>
 			<td style="width:150px;"> 등급 </td>
 		</tr>
-		
 <%
 	request.setCharacterEncoding("UTF-8");
 
@@ -60,6 +59,7 @@ catch(Exception e){
 %>
 		
 	</table>
+</form>
 </section>
 
 <jsp:include page="footer.jsp"></jsp:include>
