@@ -7,12 +7,13 @@
 <title>insert</title>
 </head>
 <body>
-<jsp:include page="header.jsp"></jsp:include>
+<script type="text/javascript" src="check.js"></script><%-- check.js 연동 --%>
+<jsp:include page="header.jsp"></jsp:include><%-- header.jsp 연동 --%>
 
 
 <section style="position:fixed; top:70px; left:0px; width:100%; height:100%; background-color:lightgray">
 <h2 style="text-align:center;"> 수강신청 </h2>
-<form style="display:flex; align-items:center; justify-content:center;">
+<form name="frm" style="display:flex; align-items:center; justify-content:center;">
 	<table border="1">
 		<tr>
 			<td style="text-align:center"> 수강월 </td>
@@ -22,7 +23,11 @@
 		<tr>
 			<td style="text-align:center"> 회원명 </td>
 			<td>
-				<select name="c_name" style="width:150px">
+				<select name="c_name" style="width:150px" onchange="getvalue(this.value)">
+				<%-- 
+				onchange : 셀렉트 박스 값 변경될 때, 지정한 함수"getvalue"를 실행하고
+				getvalue의 인자를 select 안의 value값으로 전달하겠다는 의미의 (this.value) 입력
+				--%>
 					<option value=""> 회원명 </option>
 					<option value="10001"> 홍길동 </option>
 					<option value="10002"> 장발장 </option>
@@ -52,12 +57,16 @@
 		<tr>
 			<td style="text-align:center"> 강의명 </td>
 			<td>
-				<select name="class_name" style="width:150px">
+				<select name="class_name" style="width:150px" onchange="getvalue2(this.value)">
+				<%-- 
+				onchange : 셀렉트 박스 값 변경될 때, 지정한 함수"getvalue2"를 실행하고
+				getvalue의 인자를 select 안의 value값으로 전달하겠다는 의미의 (this.value) 입력
+				--%>
 					<option value=""> 강의신청 </option>
-					<option value="10000"> 초급반 </option>
-					<option value="20000"> 중급반 </option>
-					<option value="30000"> 고급반 </option>
-					<option value="40000"> 심화반 </option>
+					<option value="100000"> 초급반 </option>
+					<option value="200000"> 중급반 </option>
+					<option value="300000"> 고급반 </option>
+					<option value="400000"> 심화반 </option>
 				</select>
 			</td>
 		</tr>
@@ -69,8 +78,8 @@
 
 		<tr style="text-align:center">
 			<td colspan="2">
-				<input type="button" value="수강신청"> &nbsp;
-				<input type="button" value="다시쓰기">
+				<input type="button" value="수강신청" onclick="add()"> &nbsp;
+				<input type="button" value="다시쓰기" onclick="res()">
 			</td>		
 		</tr>
 
