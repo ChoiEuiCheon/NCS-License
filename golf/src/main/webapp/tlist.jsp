@@ -32,7 +32,10 @@
         while(rs.next()){
             int class_price = rs.getInt(4);
             DecimalFormat transformat = new DecimalFormat("￦ ###,###,###");
-            // DecimalFormat : 
+            /*    	
+    		DecimalFormat transformat = new DecimalFormat("￦ ###,###,###.00");
+    		소수점 자리까지 표기하는 방법	
+    		*/
             String price = transformat.format(class_price);
 
             String teach_resist_date = rs.getString(5);
