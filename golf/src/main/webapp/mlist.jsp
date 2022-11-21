@@ -36,7 +36,7 @@ try{
 	while(rs.next()){
 		String resist_month = rs.getString(1); // 202203
 		String month = resist_month.substring(0,4) + "년" + resist_month.substring(4,6) + "월"; // 2022년03월
-		// substring(첫문자위치,마지막문자위치+1)
+        // subString(시작인덱스,끝+1인덱스) : 글자 추출
 		int tuition = rs.getInt(6);
 		DecimalFormat transformat = new DecimalFormat("￦ ###,###,### ");
 		String price = transformat.format(tuition);
