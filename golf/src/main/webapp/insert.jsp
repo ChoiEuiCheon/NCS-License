@@ -13,7 +13,7 @@
 
 <section style="position:fixed; top:70px; left:0px; width:100%; height:100%; background-color:lightgray">
 <h2 style="text-align:center;"> 수강신청 </h2>
-<form name="frm" style="display:flex; align-items:center; justify-content:center;">
+<form method="post" action="i_action.jsp" name="frm" style="display:flex; align-items:center; justify-content:center;">
 	<table border="1">
 		<tr>
 			<td style="text-align:center"> 수강월 </td>
@@ -46,11 +46,11 @@
 		<tr>
 			<td style="text-align:center"> 강의장소 </td>
 			<td> 
-				<input type="radio" name="class_area" value="1"> 서울본원
-				<input type="radio" name="class_area" value="2"> 성남분원
-				<input type="radio" name="class_area" value="3"> 대전분원
-				<input type="radio" name="class_area" value="4"> 부산분원
-				<input type="radio" name="class_area" value="5"> 대구분원
+				<input type="radio" name="class_area" value="서울본원"> 서울본원
+				<input type="radio" name="class_area" value="성남분원"> 성남분원
+				<input type="radio" name="class_area" value="대전분원"> 대전분원
+				<input type="radio" name="class_area" value="부산분원"> 부산분원
+				<input type="radio" name="class_area" value="대구분원"> 대구분원
 			</td>
 		</tr>
 
