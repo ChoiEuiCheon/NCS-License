@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>index</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,7 +13,7 @@
 <jsp:include page="nav.jsp"></jsp:include>
 <!-- 해당 위치에 include(포함하여 배치할) jsp 페이지 선택 -->
 
-<section style="position:fixed; top:70px; left:0px; width:100%; height:100%; background-color:lightgray">
+<section>
 <!-- <section> 태그는 HTML 문서에 포함된 독립적인 섹션(section)을 정의할 때 사용하며 보통 제목 요소(h1~h6)를 자식 요소로 포함하고 있는 경우가 많음 -->
 <!-- position:fixed로 section을 고정시킨 뒤, top:70px로 header.jsp page공간 확보 후 width,height:100%로 공간 활용 -->
 
