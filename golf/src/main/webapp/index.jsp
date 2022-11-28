@@ -9,6 +9,7 @@
 <body>
 
 <jsp:include page="header.jsp"></jsp:include>
+<jsp:include page="nav.jsp"></jsp:include>
 <!-- 해당 위치에 include(포함하여 배치할) jsp 페이지 선택 -->
 
 <section style="position:fixed; top:70px; left:0px; width:100%; height:100%; background-color:lightgray">
