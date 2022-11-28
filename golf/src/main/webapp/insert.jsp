@@ -9,6 +9,7 @@
 <body>
 <script type="text/javascript" src="check.js"></script><%-- check.js 연동 --%>
 <jsp:include page="header.jsp"></jsp:include><%-- header.jsp 연동 --%>
+<jsp:include page="nav.jsp"></jsp:include>
 
 
 <section style="position:fixed; top:70px; left:0px; width:100%; height:100%; background-color:lightgray">
