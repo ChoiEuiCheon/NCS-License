@@ -1,0 +1,36 @@
+@charset "EUC-KR";
+
+header{
+	 position:fixed;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:40px;
+	 line-height:40px;
+	 text-align:center;
+	 background-color:orange;
+	 font-size:20px;
+	/* header(가장 윗 부분)의 스타일 지정 및 <b>태그(bold의 약자, 글씨 굵게하기) 지정--> */
+}
+
+nav{
+	 position:fixed;
+	 top:40px;
+	 left:0px;
+	 width:100%;
+	 height:30px;
+	 line-height:30px;
+	 background-color:pink;
+	 padding-left:20px;
+}
+
+footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background-color:orange;
+	text-align:center;
+}
