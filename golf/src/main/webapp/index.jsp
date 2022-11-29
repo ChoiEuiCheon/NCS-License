@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>index</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?after">
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 <!-- position:fixed로 section을 고정시킨 뒤, top:70px로 header.jsp page공간 확보 후 width,height:100%로 공간 활용 -->
 
 
-	<h2 style="text-align:center;"> 과정평가형 자격 CBQ </h2>
+	<h2> 과정평가형 자격 CBQ </h2>
 	<!-- h2태그의 글자 정렬을 center로 정의 -->
 	
 	<p style="padding-left:20px;">
