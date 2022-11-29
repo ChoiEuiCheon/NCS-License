@@ -43,3 +43,11 @@ section{
 	height:100%;
 	background-color:lightgray;
 }
+
+section h1{
+	text-align:center;
+}
+
+section h2{
+	text-align:center;
+}
