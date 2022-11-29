@@ -13,7 +13,7 @@
 
 
 <section>
-<h2 style="text-align:center;"> 수강신청 </h2>
+<h2> 수강신청 </h2>
 <form method="post" action="i_action.jsp" name="frm" style="display:flex; align-items:center; justify-content:center;">
 	<table border="1">
 		<tr>
