@@ -16,7 +16,7 @@
 <jsp:include page="nav.jsp"></jsp:include>
 
 <section>
-<h2 style="text-align:center;"> 회원정보조회 </h2>
+<h2> 회원정보조회 </h2>
 <form style="display:flex; align-items:center; justify-content:center; text-align:center">
 <!-- 
 	<form> : 백엔드 서버로 데이터를 보낼 수 있는 태그
