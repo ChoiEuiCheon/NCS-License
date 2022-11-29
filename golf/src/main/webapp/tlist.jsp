@@ -14,7 +14,7 @@
 
 <section>
 <h2 style="text-align:center;"> 강사조회 </h2>
-<form style="display:flex; align-items:center; justify-content:center; text-align:center;">
+<form>
 <table border="1">
     <tr>
         <td style = "width:150px"> 강사코드 </td>
