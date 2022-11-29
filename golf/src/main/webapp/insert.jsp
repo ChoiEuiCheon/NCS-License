@@ -14,7 +14,7 @@
 
 <section>
 <h2> 수강신청 </h2>
-<form method="post" action="i_action.jsp" name="frm" style="display:flex; align-items:center; justify-content:center;">
+<form method="post" action="i_action.jsp" name="frm" style="text-align:left;">
 	<table border="1">
 		<tr>
 			<td style="text-align:center"> 수강월 </td>
