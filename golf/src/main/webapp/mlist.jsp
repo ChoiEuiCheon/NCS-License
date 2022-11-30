@@ -41,7 +41,7 @@
 
 try{// 오류를 찾아내기 위한 try..catch문의 try 부분
 	
-	String sql=	"SELECT resist_month, cl.c_no, c_name, class_name, class_area, tuition, grade "+
+	String sql=	"SELECT regist_month, cl.c_no, c_name, class_name, class_area, tuition, grade "+
 				"FROM tbl_teacher_202201 te, tbl_member_202201 me, tbl_class_202201 cl "+
 				"WHERE te.teacher_code=cl.teacher_code and me.c_no=cl.c_no";
 	// sql문을 실행하여 String 타입의 sql 변수에 저장
