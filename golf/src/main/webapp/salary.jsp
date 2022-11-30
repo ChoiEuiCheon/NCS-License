@@ -13,7 +13,7 @@
 <jsp:include page="nav.jsp"></jsp:include>
 
 <section>
-<h2 style="text-align:center;"> 강사매출현황 </h2>
+<h2> 강사매출현황 </h2>
 
 
 <form>
