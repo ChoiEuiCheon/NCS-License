@@ -18,7 +18,7 @@
 	<table border="1">
 		<tr>
 			<td style="text-align:center"> 수강월 </td>
-			<td> <input type="text" name="resist_month" style="width:150px"> 예) 202203 </td>
+			<td> <input type="text" name="regist_month" style="width:150px"> 예) 202203 </td>
 		</tr>
 
 		<tr>
