@@ -30,6 +30,13 @@ request.setCharacterEncoding("UTF-8");
 
 try{
     String sql = "SELECT cl.teacher_code, class_name, teacher_name, SUM(tuition) salary "+
+																	/* 
+														    		합계 : SUM
+																	평균 : AVG
+																	개수 : COUNT
+																	최소값 : MIN
+																	최대값 : MAX
+																	*/
             "FROM tbl_teacher_202201 te, tbl_class_202201 cl "+ 
             "WHERE te.teacher_code=cl.teacher_code "+
             "GROUP BY cl.teacher_code, class_name, teacher_name "+
