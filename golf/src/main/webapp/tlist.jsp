@@ -39,10 +39,10 @@
     		*/
             String price = transformat.format(class_price);
 
-            String teach_resist_date = rs.getString(5);
-            String date = teach_resist_date.substring(0,4) + "년" +
-            teach_resist_date.substring(4,6) + "월" +
-            teach_resist_date.substring(6,8) + "일";
+            String teach_regist_date = rs.getString(5);
+            String date = teach_regist_date.substring(0,4) + "년" +
+            teach_regist_date.substring(4,6) + "월" +
+            teach_regist_date.substring(6,8) + "일";
             // subString(시작인덱스,끝+1인덱스) : 글자 추출
         %>
         <tr>
