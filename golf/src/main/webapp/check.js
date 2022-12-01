@@ -6,7 +6,7 @@ function add(){
 	}
 	else if(frm.c_name.value==0){
 		alert("회원명이 선택되지 않았습니다.");
-		frm.c_name.foucs();
+		frm.c_name.focus();
 		return false;		
 	}
 	else if(frm.class_area[0].checked==false && 
@@ -20,12 +20,13 @@ function add(){
 	}
 	else if(frm.class_name.value==0){
 		alert("강의명이 선택되지 않았습니다.");
-		frm.class_name.foucs();
+		frm.class_name.focus();
 		return false;
 	}
 	else{
 		alert("수강신청이 완료되었습니다.");
 		document.frm.submit();
+		return true;
 	}
 }
 
