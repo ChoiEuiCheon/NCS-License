@@ -43,7 +43,7 @@ function getvalue(c_no){ // select에서 선택된 value값을 c_no로 가져옴
 function getvalue2(tuition){ // select에서 선택된 value값을 tuition으로 가져옴
 	if(c_no2 >= 20000){
 		document.getElementById("tuition").value = tuition/2;
-		// 회원 번호(c_no)가 20000 이상일 시 수강료(tuition) 반값 할인
+		// 회원 번호(c_no)가 20000 이상일 시 수강료(tuition) 반값 할인 함수
 	}
 	else
 	{
