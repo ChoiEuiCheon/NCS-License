@@ -71,3 +71,6 @@ try{
 <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
+<!-- 
+	강사 총 매출액 조회 페이지
+-->
