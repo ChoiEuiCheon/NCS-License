@@ -87,3 +87,6 @@ catch(Exception e){
 <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
+<!-- 
+	회원 목록 페이지
+-->
