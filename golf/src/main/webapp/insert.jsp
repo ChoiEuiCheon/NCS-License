@@ -91,3 +91,6 @@
 <jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
+<!-- 
+	수강 정보를 등록하는 페이지
+-->
