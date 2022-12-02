@@ -32,3 +32,8 @@ catch(Exception e){
 %>
 
 <jsp:forward page="index.jsp"></jsp:forward>
+
+<!-- 
+	insert_action의 약자
+	insert 페이지에서 실행되는 백엔드 코드를 코딩한 파일이다.
+-->
