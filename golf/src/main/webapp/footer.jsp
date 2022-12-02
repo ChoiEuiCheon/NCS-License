@@ -16,3 +16,6 @@ HRDKorea Copyrightⓒ2022 ALL rights reserved. Human Resources Development Servi
 
 </body>
 </html>
+<!-- 
+	모든 페이지에 들어갈 footer 파일
+-->
