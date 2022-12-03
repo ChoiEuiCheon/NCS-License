@@ -56,7 +56,7 @@ try{// 오류를 찾아내기 위한 try..catch문의 try 부분
 	while(rs.next()){
 		// rs.next() : sql문을 통해 얻은 데이터에서 첫번째행에서 마지막 행까지를 추출할때나 행이 있는지 없는지 판단할때 사용한다.
 		// 커서를 이동하여 마지막 결과에 도달할 때 까지 실행하는 것이라고 이해하면 된다.
-		String regist_month = rs.getString(1); // 202203
+		String regist_month = rs.getString(1); 
 		String month = regist_month.substring(0,4) + "년" + regist_month.substring(4,6) + "월"; // 2022년03월
         // subString(시작인덱스,끝+1인덱스) : 글자 추출
 		int tuition = rs.getInt(6);
