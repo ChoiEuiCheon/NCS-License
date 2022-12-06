@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert</title>
+<title>insert</title>
 </head>
 <body>
 <script type="text/javascript" src="check.js"></script><%-- check.js 연동 --%>
