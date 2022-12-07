@@ -26,7 +26,7 @@
 			<td>
 				<select name="c_name" style="width:150px" onchange="getvalue(this.value)">
 				<%-- 
-				onchange : 셀렉트 박스 값 변경될 때, 지정한 함수를 실행하고
+				onchange() : 셀렉트 박스 값 변경될 때, 지정한 함수를 실행하고
 				인자를 select 안의 value값으로 전달하겠다는 의미의 (this.value) 입력
 				--%>
 					<option value=""> 회원명 </option>
