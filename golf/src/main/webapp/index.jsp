@@ -22,7 +22,7 @@
 	<!-- h2태그의 글자 정렬을 center로 정의 -->
 	
 	<p style="padding-left:20px;">
-	국가직무능력표준(NCS : National Competency Standards)으로 설계된 교육ㆍ훈련 과정을 체계적으로 이수하고 내ㆍ외부 평가를 거쳐 취득하는 국가기술자격입니다.<br><br>
+	국가직무능력표준(NCS : National Competency Standards)으로 설계된 교육ㆍ훈련 과정을 체계적으로 이수하고 내ㆍ외부 평가를 거쳐 취득하는 국가 기술자격입니다.<br><br>
 	<b>
 	산업현장 중심의 교육 평가로 더 커지는 능력!<br><br>
 	알고 있는 것에 할 수 있는 것을 더하는<br><br>
