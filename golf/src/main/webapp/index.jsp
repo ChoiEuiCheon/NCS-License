@@ -33,6 +33,7 @@
 </section>
 
 <jsp:include page="footer.jsp"></jsp:include>
+<!-- 해당 위치에 include(포함하여 배치할) jsp 페이지 선택 -->
 
 </body>
 </html>
